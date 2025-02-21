@@ -153,22 +153,12 @@
     font-size: 16px;
     font-family: 'Poppins', serif;
 }
-.navbar-brand{
-    font-size: x-large;
-}
-.navbar-brand.word1{
-    color: red;
-}
-.navbar-brand.word2{
-    color: white;
-}
-.navbar-brand.word3{
-    color: aqua;
-}
+
 #navbar .nav-link{
+    padding-left: 35px;
     color: white;
     font-weight: bold;
-    margin-left: 5px;
+    margin-left: 25px;
     transition: 0.5s ease;
 }
 #navbar .nav-link:hover{
@@ -186,3 +176,16 @@
     background-color: #1c1c50;
 }
 /* navbar */
+@media screen and (max-width:500px){
+    .navbar-brand{
+        font-size: 30px;
+        font-weight:bolder;
+    }
+   
+}
+@media screen and (max-width:350px){
+    .navbar-brand{
+        font-size: 20px;
+        font-weight:bolder;
+    } 
+}
